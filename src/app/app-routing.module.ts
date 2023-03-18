@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'gallery', component: GalleryComponent },
   { path: 'contacts', component: ContactComponent },
   { path: '', redirectTo: '/home',pathMatch: 'full' },
-  { path: '**', redirectTo: '/home', pathMatch: 'full' },
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({
