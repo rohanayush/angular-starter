@@ -1,0 +1,9 @@
+.tabs {
+  width: 30%;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 2px silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

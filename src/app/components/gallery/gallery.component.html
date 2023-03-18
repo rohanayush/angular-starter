@@ -1,0 +1,11 @@
+<div class="heading">
+  <h1>{{ title }}</h1>
+</div>
+
+<div class="flex-container">
+  <div class="container">
+    <div class="loop" *ngFor="let pic of galleryImages$ | async">
+      <img src="{{ pic }}" class="pics" alt="" />
+    </div>
+  </div>
+</div>

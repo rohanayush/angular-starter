@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 80%;
+  gap: 3rem;
+}
+
+h1 {
+  background: linear-gradient(
+    to right,
+    #2193b0,
+    #6dd5ed,
+    #bce2e8,
+    #f8ca9e,
+    #f49f1c,
+    #ffdd59,
+    #f8ca9e,
+    #bce2e8,
+    #6dd5ed,
+    #2193b0
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heading {
+  justify-content: center;
+  display: flex;
+  background: white;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  top: 0%;
+  margin-bottom: 20px;
+  z-index: 101;
+}
